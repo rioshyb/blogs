@@ -1,0 +1,10 @@
+/*! normalize.css */
+
+/* public
+-------------------------------------------------- */
+
+
+/* header
+-------------------------------------------------- */
+.header .tile {width: 100%;height: 150px;border: none;}
+.header .col-md-4,.col-md-2{padding: 0px;}
