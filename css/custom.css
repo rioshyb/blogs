@@ -11,15 +11,16 @@
 
 /* header
 -------------------------------------------------- */
-.main-nav .tile {width: 100%;height: 150px;border: none;padding:30px;}
-.main-nav h2{line-height: 3;}
-.main-nav .col-md-5,.main-nav .col-md-3{padding: 0px;background-color: #ffffff;}
-.main-nav{margin-bottom: 30px;}
+.main-nav .tile {width: 100%;height: 130px;border: none;padding:30px;}
+.main-nav h4{line-height: 3;}
+.main-nav .logo,.main-nav .col-md-3{padding: 0px;background-color: #ffffff;}
+.main-nav{margin-bottom: 20px;}
 .sub-nav{background-color: #eeeeee;height: 40px;width: 100%;margin-bottom: 20px;}
 
 /* banner
 -------------------------------------------------- */
 .banner{margin-bottom: 30px;}
+.banner-bg{background-color: #f1f1f1;height: 120px;opacity: 0.75;}
 
 /* content
 -------------------------------------------------- */
@@ -28,5 +29,5 @@
 
 /* footer
 -------------------------------------------------- */
-.contact-footer{width: 100%;height: 80px;background-color: #dddddd;margin-top: 40px;}
+.contact-footer{width: 100%;height: 80px;background-color: #cccccc;margin-top: 30px;}
 .copyright{width: 100%;height: 30px;background-color: #666666;}
