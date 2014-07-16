@@ -2,23 +2,31 @@
 
 /* public
 -------------------------------------------------- */
+.bg{background-image: url(../img/BG.jpg); clear: both;overflow: hidden;background-repeat: no-repeat;background-position: center 0px;background-attachment: fixed;}
 .col-left{padding-left: 0px;}
 .col-right{padding-right: 0px;}
 .col-clear{padding: 0px;}
-.row-top{margin-top: 15px;}
+.row-top-narrow{margin-top: 15px;}
+.row-top-wide{margin-top: 30px;}
 
 /* header
 -------------------------------------------------- */
-.main-nav .tile {width: 100%;height: 150px;border: none;}
-.main-nav .col-md-4,.col-md-2{padding: 0px;}
-.main-nav{background-color: #ffffff;margin-bottom: 20px;}
+.main-nav .tile {width: 100%;height: 150px;border: none;padding:30px;}
+.main-nav h2{line-height: 3;}
+.main-nav .col-md-5,.main-nav .col-md-3{padding: 0px;background-color: #ffffff;}
+.main-nav{margin-bottom: 30px;}
 .sub-nav{background-color: #eeeeee;height: 40px;width: 100%;margin-bottom: 20px;}
 
 /* banner
 -------------------------------------------------- */
-.banner{margin-bottom: 20px;}
+.banner{margin-bottom: 30px;}
 
 /* content
 -------------------------------------------------- */
-.content .tile {width: 100%;height: 220px;border: none;}
-.content .img-frame{height: 220px;overflow: hidden;}
+.content .tile {width: 100%;height: 240px;border: none;}
+.content .img-frame{height: 240px;overflow: hidden;}
+
+/* footer
+-------------------------------------------------- */
+.contact-footer{width: 100%;height: 80px;background-color: #dddddd;margin-top: 40px;}
+.copyright{width: 100%;height: 30px;background-color: #666666;}
