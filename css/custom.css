@@ -3,6 +3,7 @@
 /* public
 -------------------------------------------------- */
 .bg{background-image: url(../img/BG.jpg); clear: both;overflow: hidden;background-repeat: no-repeat;background-position: center 0px;background-attachment: fixed;}
+.bg-dot{background-image: url(../img/bg-dot.png);overflow: hidden;}
 .col-left{padding-left: 0px;}
 .col-right{padding-right: 0px;}
 .col-clear{padding: 0px;}
@@ -14,13 +15,17 @@
 .main-nav .tile {width: 100%;height: 130px;border: none;padding:30px;}
 .main-nav h4{line-height: 3;}
 .main-nav .logo,.main-nav .col-md-3{padding: 0px;background-color: #ffffff;}
-.main-nav{margin-bottom: 20px;}
-.sub-nav{background-color: #aaaaaa;height: 40px;width: 100%;margin-bottom: 20px;opacity: 0.9;}
+.web-title{height: 130px;background-color: #3498db;opacity: 0.9;color:#ffffff;}
+.web-title .main-title{font-size: 36px;padding: 15px 0px 0px 25px;}
+.web-title .sub-title{font-size: 18px;padding-left: 25px;}
+.main-nav{margin-bottom: 20px;margin-top: 60px;}
+.sub-nav{z-index: 100; position:fixed;top:0;background-color: #bbbbbb;height: 40px;width: 100%;opacity: 0.85;}
 
 /* banner
 -------------------------------------------------- */
 .banner{margin-bottom: 30px;}
-.banner-bg{background-color: #f5f5f5;height: 120px;opacity: 0.9;}
+.banner-bg{width:100%;height: 82px;padding: 25px 150px; opacity: 0.9;background:#ebebeb url(../img/masge.jpg) no-repeat;}
+.slogan{font-size: 20px;color: #666666;}
 
 /* content
 -------------------------------------------------- */
