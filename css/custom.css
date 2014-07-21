@@ -36,6 +36,13 @@
 .content .title-style{text-align: left;height: 65%;}
 .content .icon{text-align:right;margin:15px;height: 35%;}
 .content .article-style{text-align: left;padding: 10px; }
+.social-media{width: 100%;height: 100%;padding-top: 15%;}
+.social-media h2{margin-top: 0px;}
+
+.blog{}
+.list{}
+.list-item{}
+.sidebar{}
 
 /* footer
 -------------------------------------------------- */
