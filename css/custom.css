@@ -56,24 +56,25 @@
 .sidebar{margin-left: 10px;}
 .side-list{background-color: #ffffff;margin-bottom: 20px;}
 .side-list .head{color: #ffffff;padding: 20px 20px;opacity: 1;}
-.side-list .blog-list{background-color: #967adc;}
+.side-list .blog-list{background-color: #8cc152;}
 .side-list .contact{background-color: #8cc152;}
 
 .side-list h3{margin: 0px;font-size: 20px;}
 .side-list .list{padding-left: 0;}
 .side-list .item{position: relative;display: block;padding: 15px 20px;margin-bottom: -1px;border-bottom: 1px solid #f1f1f1;color: #555555;}
-.side-list .item span{margin-right: 8px;background-color:#967adc;font-size: 14px;}
+.side-list .item span{margin-right: 8px;background-color:#8cc152;font-size: 14px;}
 
 .side-weather{margin-bottom: 20px;color: #ffffff;background-color: #4fc1e9;opacity: 0.8;}
 .side-weather .words{float: right;width: 70%;padding: 5px 30px;text-align: right;}
 .side-weather .words h1{font-size: 30px;}
 .side-weather .icon{float: left;width: 30%;padding: 25px 25px;background-color: #3bafda;opacity: 0.9;}
 
-.side-author{text-align: left;background-color: #ffffff;}
-.side-author .head{display:inline-block;background-color: #8cc152;padding: 30px;}
-.side-author .avatar{border-radius:35px;width: 70px;height: 70px;border:3px solid #ffffff;}
-
-.side-author .intro{display:inline-block;}
+.side-contact{background-color: #bdc3c7;margin-bottom: 20px;}
+.side-contact .head{padding-top: 30px;padding-bottom: 10px;color: #ffffff; text-align: center;}
+.side-contact .avatar{display: inline-block; border-radius:35px;width: 70px;height: 70px;border:3px solid #ffffff;}
+.side-contact .intro{background-color: #ffffff;text-align: center;border: 1px solid #f1f1f1;}
+.side-contact .btn{display: inline-block;width: 24%; padding: 1px;text-align: center;color:#999999;}
+.side-contact .btn-border{border-left:1px solid #f1f1f1; }
 /* footer
 -------------------------------------------------- */
 .contact-footer{width: 100%;height: 80px;background-color: #cccccc;margin-top: 30px;}
