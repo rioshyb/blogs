@@ -44,38 +44,46 @@
 -------------------------------------------------- */
 .list-item{width: 100%;background-color: #ffffff;margin-bottom: 30px;}
 .list-item .pic{}
-.list-item .title{background-color: #1abc9c;padding:10px 15px;opacity: 0.85;}
+.list-item .title{background-color: #1abc9c;padding:10px 25px;opacity: 0.85;}
 .list-item h3{margin: 0px;color: #ffffff;font-size: 22px;}
-.list-item .date_author{color: #999999;padding-left: 20px;padding-top: 10px;}
+.list-item .date_author{color: #999999;padding-left: 25px;padding-top: 10px;}
 .list-item .date_author i{margin-right: 5px;}
-.list-item .text{padding:5px 15px;line-height: 1.8;color: #555555;}
+.list-item .text{padding:5px 25px;line-height: 1.8;color: #555555;}
+.list-item .blog{padding:10px 25px;line-height: 2;color: #555555;font-size: 16px;}
+.list-item .blog img{margin: 20px auto;}
 .list-item .tags{padding:15px 15px;width: 80%;}
 
 /* sidebar
 -------------------------------------------------- */
-.sidebar{margin-left: 10px;}
+.sidebar{margin-left: 20px;}
 .side-list{background-color: #ffffff;margin-bottom: 20px;}
 .side-list .head{color: #ffffff;padding: 20px 20px;opacity: 1;}
-.side-list .blog-list{background-color: #8cc152;}
+.side-list .blog-list{background-color: #48cfad;}
 .side-list .contact{background-color: #8cc152;}
 
 .side-list h3{margin: 0px;font-size: 20px;}
 .side-list .list{padding-left: 0;}
 .side-list .item{position: relative;display: block;padding: 15px 20px;margin-bottom: -1px;border-bottom: 1px solid #f1f1f1;color: #555555;}
-.side-list .item span{margin-right: 8px;background-color:#8cc152;font-size: 14px;}
+.side-list .item span{margin-right: 8px;background-color:#48cfad;font-size: 14px;}
 
-.side-weather{margin-bottom: 20px;color: #ffffff;background-color: #4fc1e9;opacity: 0.8;}
-.side-weather .words{float: right;width: 70%;padding: 5px 30px;text-align: right;}
-.side-weather .words h1{font-size: 30px;}
-.side-weather .icon{float: left;width: 30%;padding: 25px 25px;background-color: #3bafda;opacity: 0.9;}
+.side-weather{margin-bottom: 20px;color: #ffffff;background-color: #fc6e51;opacity: 0.8;}
+.side-weather .words{float: right;width: 70%;padding-right:30px;padding-top:2px;text-align: right;}
+.side-weather .words h2{font-size: 26px;line-height: 1;}
+.side-weather .icon{float: left;width: 30%;padding: 25px 25px;background-color: #e9573f;opacity: 0.9;}
 
-.side-contact{background-color: #bdc3c7;margin-bottom: 20px;}
+.side-contact{background-color: #4fc1e9;margin-bottom: 20px;opacity: 0.9;}
 .side-contact .head{padding-top: 30px;padding-bottom: 10px;color: #ffffff; text-align: center;}
 .side-contact .avatar{display: inline-block; border-radius:35px;width: 70px;height: 70px;border:3px solid #ffffff;}
 .side-contact .intro{background-color: #ffffff;text-align: center;border: 1px solid #f1f1f1;}
-.side-contact .btn{display: inline-block;width: 24%; padding: 1px;text-align: center;color:#999999;}
-.side-contact .btn-border{border-left:1px solid #f1f1f1; }
+.side-contact .btn{display: inline-block;width: 23.5%; padding: 1px;text-align: center;color:#999999;}
+.side-contact .btn-border{border-left:1px solid #e8e8e8; }
+
 /* footer
 -------------------------------------------------- */
-.contact-footer{width: 100%;height: 80px;background-color: #cccccc;margin-top: 30px;}
-.copyright{width: 100%;height: 30px;background-color: #666666;}
+.contact-footer{width: 100%;height: 80px;background-color: #bbbbbb;margin-top: 30px;color: #ffffff;}
+.contact-footer .menu{margin-bottom: 0;padding-left: 0;list-style: none;width: 100%;height: 40px;}
+.contact-footer .menu li{float: left;padding: 10px 15px 10px 0px;}
+.contact-footer a{color: #ffffff;}
+.contact-footer .contact{text-align: left;}
+.contact-footer .contact-block{display: inline-block;margin-right: 20px;}
+.copyright{width: 100%;height: 30px;background-color: #666666;text-align: center;color: #ffffff;line-height: 30px;}
